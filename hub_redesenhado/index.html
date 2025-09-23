@@ -1,0 +1,361 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Hub de Desenvolvimento de Interfaces</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="profile">
+            <div class="profile-image">
+                <i class="fas fa-user-graduate"></i>
+            </div>
+            <h2 class="profile-name">Estudante</h2>
+            <p class="profile-title">Desenvolvimento de Interfaces</p>
+        </div>
+        
+        <nav class="navigation">
+            <ul>
+                <li class="nav-item active" data-section="sobre">
+                    <a href="#sobre">
+                        <span class="nav-number">1</span>
+                        <span class="nav-text">Sobre mim</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-section="habilidades">
+                    <a href="#habilidades">
+                        <span class="nav-number">2</span>
+                        <span class="nav-text">Habilidades</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-section="projetos">
+                    <a href="#projetos">
+                        <span class="nav-number">3</span>
+                        <span class="nav-text">Projetos</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-section="contato">
+                    <a href="#contato">
+                        <span class="nav-number">4</span>
+                        <span class="nav-text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Seção Sobre mim -->
+        <section id="sobre" class="content-section active">
+            <div class="section-header">
+                <h1 class="section-title">Sobre mim</h1>
+                <p class="section-subtitle">
+                    Sou um estudante da disciplina de <strong>Desenvolvimento de Interfaces</strong>, explorando o fascinante 
+                    mundo da criação de interfaces digitais. Minha jornada inclui o aprendizado de tecnologias fundamentais 
+                    como HTML, CSS e JavaScript, além de conceitos importantes de UX/UI e Interação Humano-Computador.
+                </p>
+            </div>
+
+            <div class="cards-container">
+                <div class="info-card">
+                    <h3>Informações Pessoais</h3>
+                    <div class="info-item">
+                        <span class="info-label">Nome:</span>
+                        <span class="info-value">Estudante de Interfaces</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Email:</span>
+                        <span class="info-value">estudante@exemplo.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Instituição:</span>
+                        <span class="info-value">CEUB</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Disciplina:</span>
+                        <span class="info-value">Desenvolvimento de Interfaces</span>
+                    </div>
+                </div>
+
+                <div class="interests-card">
+                    <h3>Interesses</h3>
+                    <div class="interests-tags">
+                        <span class="interest-tag">HTML</span>
+                        <span class="interest-tag">CSS</span>
+                        <span class="interest-tag">JavaScript</span>
+                        <span class="interest-tag">UX/UI</span>
+                        <span class="interest-tag">Web Design</span>
+                        <span class="interest-tag">Responsividade</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-card">
+                <h3>Educação e Formação</h3>
+                <div class="education-item">
+                    <h4>Cursando Desenvolvimento de Interfaces</h4>
+                    <p>[CEUB], [2025]</p>
+                </div>
+                <div class="education-item">
+                    <h4>Fundamentos de HTML, CSS e JavaScript</h4>
+                    <p>Aprendizado prático através de projetos reais</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Habilidades -->
+        <section id="habilidades" class="content-section">
+            <div class="section-header">
+                <h1 class="section-title">Minhas Habilidades</h1>
+                <p class="section-subtitle">
+                    Estas são as tecnologias e competências que venho desenvolvendo durante a disciplina.
+                </p>
+            </div>
+
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML</span>
+                        <div class="skill-progress">
+                            <div class="progress-dots">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">CSS</span>
+                        <div class="skill-progress">
+                            <div class="progress-dots">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-progress">
+                            <div class="progress-dots">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Design & UX</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">UI Design</span>
+                        <div class="skill-progress">
+                            <div class="progress-dots">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Responsividade</span>
+                        <div class="skill-progress">
+                            <div class="progress-dots">
+                                <span class="dot filled"></span>
+                                <span class="dot filled"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="soft-skills-card">
+                <h3>Outras Competências</h3>
+                <p>Habilidades complementares que fazem a diferença no dia a dia.</p>
+                <ul class="soft-skills-list">
+                    <li><i class="fas fa-check"></i> Trabalho em Equipe</li>
+                    <li><i class="fas fa-check"></i> Resolução de Problemas</li>
+                    <li><i class="fas fa-check"></i> Pensamento Crítico</li>
+                    <li><i class="fas fa-check"></i> Aprendizado Contínuo</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção Projetos -->
+        <section id="projetos" class="content-section">
+            <div class="section-header">
+                <h1 class="section-title">Meus Projetos</h1>
+                <p class="section-subtitle">
+                    Aqui estão alguns dos trabalhos que desenvolvi durante as aulas da disciplina de 
+                    Desenvolvimento de Interfaces. Clique em um para ver mais detalhes.
+                </p>
+            </div>
+
+            <div class="projects-summary">
+                <h3>Resumo</h3>
+                <p>O intuito do curso está sendo o aprendizado de todos os conceitos básicos de HTML e CSS</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <div class="project-content">
+                        <h4>Site PetShop Completo</h4>
+                        <p>Simulação de um site de petshop completo, utilizando conceitos básicos de HTML e CSS.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <a href="petshop.html" class="project-link">Ver Projeto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-list"></i>
+                    </div>
+                    <div class="project-content">
+                        <h4>Modelagem de Listas</h4>
+                        <p>Desenvolvido a partir de uma aula sobre conceitos de listas ordenadas e não ordenadas.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                        </div>
+                        <a href="listas.html" class="project-link">Ver Projeto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-table"></i>
+                    </div>
+                    <div class="project-content">
+                        <h4>Modelagem de Tabelas</h4>
+                        <p>Desenvolvido a partir de uma aula sobre conceitos de tabelas e estruturação de dados.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <a href="tabelas.html" class="project-link">Ver Projeto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-wpforms"></i>
+                    </div>
+                    <div class="project-content">
+                        <h4>Modelagem de Formulários</h4>
+                        <p>Desenvolvido a partir de uma aula sobre conceitos de formulários e inputs.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                        </div>
+                        <a href="formulario.html" class="project-link">Ver Projeto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="project-content">
+                        <h4>Sistemas de Menu</h4>
+                        <p>Desenvolvido a partir de uma aula sobre conceitos de navegação e menus.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <a href="menus.html" class="project-link">Ver Projeto</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="project-content">
+                        <h4>Resumo sobre o Curso</h4>
+                        <p>Desenvolvido a partir de uma aula sobre conceitos fundamentais de HTML.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                        </div>
+                        <a href="introducao.html" class="project-link">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="content-section">
+            <div class="section-header">
+                <h1 class="section-title">Vamos Conversar?</h1>
+                <p class="section-subtitle">
+                    Estou sempre aberto a discussões sobre desenvolvimento web, colaborações em projetos 
+                    ou esclarecimentos sobre os conteúdos apresentados neste hub.
+                </p>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info-card">
+                    <h3>Informações de Contato</h3>
+                    <p>As melhores formas de entrar em contato comigo</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">estudante@exemplo.com</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-details">
+                            <span class="contact-label">Localização</span>
+                            <span class="contact-value">Brasília, DF - Brasil</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="professor-card">
+                    <h3>Professor da Disciplina</h3>
+                    <div class="professor-info">
+                        <h4>Prof. M.sc Wendell Cruzeiro</h4>
+                        <p>Email: wendell.cruzeiro@ceub.edu.br</p>
+                    </div>
+                </div>
+
+                <div class="availability-card">
+                    <div class="availability-indicator">
+                        <span class="status-dot"></span>
+                        <span class="status-text">Disponível para Projetos</span>
+                    </div>
+                    <p>Atualmente aceitando novos projetos e oportunidades de aprendizado.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
