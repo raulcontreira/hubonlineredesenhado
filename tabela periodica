@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tabela periodica</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    
+<div class="container text-center">
+    <div class="row">
+        <div class="col btn btn-primary">H <p>Hidrogênio</p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth" id = "ulh">He<p>Hélio</p></div>
+    </div>
+
+    <div class="row">
+        <div class="col btn btn-ligth" id = "MAL">Lí <p>Lítio</p></div>
+        <div class="col btn btn-ligth" id = "MA">Be <p>Berílio</p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth" id = "SM">B <p>Boro</p></div>
+        <div class="col btn btn-primary">C<p>Carbono</p></div>
+        <div class="col btn btn-primary">N<p>Azoto</p></div>
+        <div class="col btn btn-primary">O<p>Oxigénio</p></div>
+        <div class="col btn btn-primary">F<p>Flúor</p></div>
+        <div class="col btn btn-ligth" id = "ulh" >NE<p>Néon</p></div>
+    </div>
+    <div class="row">
+        <div class="col btn btn-ligth" id = "MAL">NA<p>Sódio</p></div>
+        <div class="col btn btn-ligth" id = "MA">MG <p>Magnésio</p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"> <p></p></div>
+        <div class="col btn btn-ligth"id = "MPT">Al<p>Alumínio</p></div>
+        <div class="col btn btn-ligth"id = "SM">SI <p>Silício</p></div>
+        <div class="col btn btn-primary">P <p>Fósforo</p></div>
+        <div class="col btn btn-primary">S <p>Enxofre</p></div>
+        <div class="col btn btn-primary">Cl <p>Cloro</p></div>
+        <div class="col btn btn-light" id = "ulh">Ar <p>Árgon</p></div>
+    </div>
+    <div class="row">
+        <div class="col btn btn-ligth" id = "MAL">K<p>Potássio</p></div>
+        <div class="col btn btn-ligth" id = "MA">Ca<p>Cálcio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Sc<p>Escândio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Ti<p>Titânio</p></div>
+        <div class="col btn btn-ligth" id = "MT">V<p>Vanádio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Cr<p>Cromo</p></div>
+        <div class="col btn btn-ligth" id = "MT">Mn<p>Manganês</p></div>
+        <div class="col btn btn-ligth" id = "MT">Fe<p>Ferro</p></div>
+        <div class="col btn btn-ligth" id = "MT">Co<p>Cobalto</p></div>
+        <div class="col btn btn-ligth" id = "MT">Ni<p>Níquel</p></div>
+        <div class="col btn btn-ligth" id = "MT">Cu<p>Cobre</p></div>
+        <div class="col btn btn-ligth" id = "MT">Zn<p>Zinco</p></div>
+        <div class="col btn btn-ligth" id = "MPT">Ga<p>Gálio</p></div>
+        <div class="col btn btn-ligth" id = "SM">Ge<p>Germânio</p></div>
+        <div class="col btn btn-ligth" id = "SM">As<p>Arsênio</p></div>
+        <div class="col btn btn-primary">Se<p>Selênio</p></div>
+        <div class="col btn btn-primary">Br<p>Bromo</p></div>
+        <div class="col btn btn-ligth" id = "ulh">Kr<p>Crípton</p></div>
+    </div>
+    <div class="row">
+        <div class="col btn btn-ligth" id = "MAL">Rb <p>Rubídio</p></div>
+        <div class="col btn btn-ligth" id = "MA">Sr <p>Estrôncio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Y <p>Ítrio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Zr <p>Zircónio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Nb <p>Nióbio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Mo <p>Molibdénio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Tc <p>Tecnécio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Ru <p>Ruténio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Rh <p>Ródio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Pd <p>Paládio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Ag <p>Prata</p></div>
+        <div class="col btn btn-ligth" id = "MT">Cd <p>Cádmio</p></div>
+        <div class="col btn btn-ligth" id = "MPT">In <p>Índio</p></div>
+        <div class="col btn btn-ligth" id = "MPT">Sn <p>Estanho</p></div>
+        <div class="col btn btn-ligth" id = "SM">Sb <p>Antimónio</p></div>
+        <div class="col btn btn-ligth" id = "SM">Te <p>Telúrio</p></div>
+        <div class="col btn btn-primary">I <p>Iodo</p></div>
+        <div class="col btn btn-ligth" id = "ulh">Xe <p>Xénon</p></div>
+    </div>
+    <div class="row">
+        <div class="col btn btn-ligth" id = "MAL">Cs <p>Césio</p></div>
+        <div class="col btn btn-ligth" id = "MA">Ba <p>Bário</p></div>
+        <div class="col btn btn-ligth" id = "LAN">La <p>Lantânio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Hf <p>Háfnio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Ta <p>Tântalo</p></div>
+        <div class="col btn btn-ligth" id = "MT">W <p>Tungsténio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Re <p>Rénio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Os <p>Ósmio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Ir <p>Irídio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Pt <p>Platina</p></div>
+        <div class="col btn btn-ligth" id = "MT">Au <p>Ouro</p></div>
+        <div class="col btn btn-ligth" id = "MT">Hg <p>Mercúrio</p></div>
+        <div class="col btn btn-ligth" id = "MPT">Tl <p>Tálio</p></div>
+        <div class="col btn btn-ligth" id = "MPT">Pb <p>Chumbo</p></div>
+        <div class="col btn btn-ligth" id = "MPT">Bi <p>Bismuto</p></div>
+        <div class="col btn btn-ligth" id = "MPT">Po <p>Polónio</p></div>
+        <div class="col btn btn-ligth" id = "MPT">At <p>Ástato</p></div>
+        <div class="col btn btn-ligth" id = "ulh">Rn <p>Rádon</p></div>
+    </div>
+    <div class="row">
+        <div class="col btn btn-ligth" id = "MAL">Fr <p>Frâncio</p></div>
+        <div class="col btn btn-ligth" id = "MA">Ra <p>Rádio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Ac <p>Actínio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Rf <p>Rutherfórdio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Db <p>Dúbnio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Sg <p>Seabórgio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Bh <p>Bóhrio</p></div>
+        <div class="col btn btn-ligth" id = "MT">Hs <p>Hássio</p></div>
+        <div class="col btn btn-ligth" id = "PQD">Mt <p>Meitnério</p></div>
+        <div class="col btn btn-ligth" id = "PQD">Ds <p>Darmstádio</p></div>
+        <div class="col btn btn-ligth" id = "PQD">Rg <p>Roentgénio</p></div>
+        <div class="col btn btn-ligth" id = "PQD">Cn <p>Copernício</p></div>
+        <div class="col btn btn-ligth" id = "PQD">Nh <p>Nihónio</p></div>
+        <div class="col btn btn-ligth" id = "PQD">Fl <p>Fleróvio</p></div>
+        <div class="col btn btn-ligth" id = "PQD">Mc <p>Moscóvio</p></div>
+        <div class="col btn btn-ligth" id = "PQD">Lv <p>Livermório</p></div>
+        <div class="col btn btn-ligth" id = "PQD">Ts <p>Tenesso</p></div>
+        <div class="col btn btn-ligth" id = "PQD">Og <p>Oganésson</p></div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col btn btn-ligth"></div>
+        <div class="col btn btn-ligth"></div>
+        <div class="col btn btn-ligth"></div>
+        <div class="col btn btn-ligth" id = "LAN">Ce <p>Cério</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Pr <p>Praseodímio</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Nd <p>Neodímio</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Pm <p>Promécio</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Sm <p>Samário</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Eu <p>Európio</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Gd <p>Gadolínio</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Tb <p>Térbio</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Dy <p>Disprósio</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Ho <p>Hólmio</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Er <p>Érbio</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Tm <p>Túlio</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Yb <p>Itérbio</p></div>
+        <div class="col btn btn-ligth" id = "LAN">Lu <p>Lutécio</p></div>
+        <div class="col btn btn-ligth"></div>
+    </div>
+    <div class="row">
+        <div class="col btn btn-ligth"></div>
+        <div class="col btn btn-ligth"></div>
+        <div class="col btn btn-ligth"></div>
+        <div class="col btn btn-ligth" id = "ACT">Th <p>Tório</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Pa <p>Protactínio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">U <p>Urânio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Np <p>Neptúnio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Pu <p>Plutónio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Am <p>Amerício</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Cm <p>Cúrio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Bk <p>Berquélio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Cf <p>Califórnio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Es <p>Einsténio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Fm <p>Férmio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Md <p>Mendelévio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">No <p>Nobélio</p></div>
+        <div class="col btn btn-ligth" id = "ACT">Lr <p>Laurêncio</p></div>
+        <div class="col btn btn-ligth"></div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
