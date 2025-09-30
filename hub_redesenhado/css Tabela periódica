@@ -1,0 +1,32 @@
+.row .col{
+    border:1px solid black;
+    font-size: 10px;
+}
+
+#ulh{
+    background-color: #ffb6c1;
+}
+#MA{
+    background-color: #ff817f;
+}
+#MAL{
+    background-color: #afeeee;
+}
+#LAN{
+    background-color:#87ceeb ;
+}
+#ACT{
+    background-color: #e78850 ;
+}
+#MT{
+    background-color: #e6e6fa ;
+}
+#SM{
+    background-color: #ffdab9 ;
+}
+#MPT{
+    background-color: #90ee90  ;
+}
+#PQD{
+    background-color: #818181  ;
+}
